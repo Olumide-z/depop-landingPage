@@ -1,3 +1,4 @@
+import Announcemnet from './components/announcement/Announcement'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import './globals.css'
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Announcemnet />
         <Navbar />
         {children}
         <Footer />

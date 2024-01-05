@@ -58,8 +58,8 @@ const Navbar = () => {
             </div>
             {/* cart */}
 
-            <div className={styles.navbarCart}>
-                <div className={cartOpen ? `${styles.navbarCartContainer} ${styles.cartActive}` : `${styles.navbarCartContainer}`}>
+            <div className={cartOpen ? `${styles.navbarCartContainer} ${styles.cartActive}` : styles.navbarCartContainer}>
+                <div className={styles.navbarCart}>
                     <Cart setCartOpen={setCartOpen}/>
                 </div>
             </div>
