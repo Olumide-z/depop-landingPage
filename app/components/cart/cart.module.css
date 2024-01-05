@@ -1,0 +1,29 @@
+.cart{
+    border-left: 1px solid #e3e3e3;
+    height: 100vh;
+    overflow: auto;
+}
+
+.cartTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: white;
+
+    position: fixed;
+    width: 380px;
+    top: 0;
+    z-index: 2;
+}
+
+.cartTitleIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.cartTitleIcon:hover{
+    transform: rotate(90deg);
+}

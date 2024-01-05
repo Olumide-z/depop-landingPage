@@ -1,0 +1,55 @@
+
+.card{
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid rgb(225, 219, 219);
+    height: 350px;
+    padding: 0 .3rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.imageContainer{
+    position: absolute;
+    width: 96%;
+    height: 80%;
+}
+
+.imageContainerTop{
+    width: 96%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.imageContainerTop:hover{
+    opacity: 1;
+}
+
+.desc{
+    position: absolute;
+    z-index: 10 !important;
+    bottom: 0;
+    padding: 0.5rem;
+}
+
+.desc h3{
+    font-size: 1rem;
+}
+
+.desc div{
+    display: flex;
+    gap: 1rem;
+}
+
+.desc span.strikethrough {
+    text-decoration: line-through;
+    color: #888; 
+  }
+
+.desc span{
+    font-size: .9rem;
+}

@@ -1,0 +1,69 @@
+.look{
+    display: flex;
+    align-items: center;
+    height: 650px;
+    position: relative;
+   
+}
+
+.lookImage{
+    flex: .5;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lookImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lookSlider{
+    flex: .5;
+    height: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    
+    flex-direction: column;
+}
+
+.lookSlider h3{
+    margin: 1rem 0;
+}
+
+.lookSlider p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+/* Media Queries for theLook component */
+@media screen and (max-width: 1024px) {
+    .look{
+        height: 900px;
+        flex-direction: column;
+    }
+
+    .lookImage{
+        height: 50%;
+    }
+
+    .lookSlider{
+        width: 100%;
+        
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .look{
+        height: fit-content;
+        flex-direction: column;
+    } 
+}

@@ -1,0 +1,12 @@
+.products{
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    gap: 2rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+      justify-content: center; /* Center cards on smaller screens */
+    }
+  }

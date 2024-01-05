@@ -1,0 +1,16 @@
+.tooltip{
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip span{
+    font-size: .7rem;
+    color: #fff;
+    background-color: black;
+    padding: .4rem;
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1rem;
+    z-index: 1;
+    text-transform: capitalize;
+}

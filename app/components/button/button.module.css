@@ -1,0 +1,17 @@
+.btn{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all .3s;
+    letter-spacing: 3px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
