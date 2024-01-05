@@ -33,7 +33,7 @@
 
 .jean div,
 .accessories div {
-  z-index: 100;
+  z-index: 20;
   color: #fff;
   position: absolute;
   bottom: 2rem;
